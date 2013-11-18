@@ -85,16 +85,6 @@ var straw = (function (window) {
         // skip if callback is not registered
         if (callback != null) {
 
-            // parse returned JSON string
-            try {
-                args = JSON.parse(args);
-
-            } catch (e) {
-                // something wrong
-                window.console.log(e);
-                window.console.log('returned JSON from straw-android is broken!');
-            }
-
             callback.call(isSuccess, args);
         }
     };
