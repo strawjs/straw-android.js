@@ -1,9 +1,7 @@
 
-var describe = window.describe;
-var it = window.it;
-var expect = window.expect;
-var sinon = window.sinon;
-var straw = window.straw;
+
+/* hint of globals for jshint */
+/* global describe, it, expect, sinon, straw */
 
 describe('straw', function () {
     'use strict';
